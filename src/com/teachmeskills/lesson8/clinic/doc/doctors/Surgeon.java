@@ -2,8 +2,12 @@ package com.teachmeskills.lesson8.clinic.doc.doctors;
 
 import com.teachmeskills.lesson8.clinic.doc.Doctor;
 
-public class Surgery extends Doctor {
-    public Surgery(String name, int doctorId) {
+/**
+ * This class contain pattern for "Surgeon" and his methods.
+ */
+
+public class Surgeon extends Doctor {
+    public Surgeon(String name, int doctorId) {
         super(name, doctorId);
     }
 
